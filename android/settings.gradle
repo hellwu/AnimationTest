@@ -1,0 +1,5 @@
+rootProject.name = 'AnimationTest'
+
+include ':app'
+include ':RNGL'
+project(':RNGL').projectDir = file('../node_modules/gl-react-native/android')
